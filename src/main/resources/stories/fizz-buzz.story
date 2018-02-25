@@ -1,0 +1,17 @@
+Story: FizzBuzz
+
+Meta:
+@scope learning
+
+Narrative:
+    As a Pattern Enthusiastic
+    I want the pattern of FizzBuzz Given the limit as input.
+
+Scenario: 1
+When limit is 6
+Then FizzBuzz pattern is 1, 2, Fizz, 4, Buzz, Fizz
+
+Scenario: 2
+When limit is 11
+Then FizzBuzz pattern is 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11
+

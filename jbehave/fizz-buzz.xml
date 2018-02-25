@@ -1,0 +1,13 @@
+<story path="file:/Users/Mayank/Documents/workspaces/FizzBuzz/bin/stories/fizz-buzz.story" title="Story: FizzBuzz">
+<meta>
+<property keyword="@" name="scope" value="learning"/>
+</meta>
+<scenario keyword="Scenario:" title="1">
+<step outcome="successful">When limit is <parameter>6</parameter></step>
+<step outcome="successful">Then FizzBuzz pattern is <parameter>1, 2, Fizz, 4, Buzz, Fizz</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="2">
+<step outcome="successful">When limit is <parameter>11</parameter></step>
+<step outcome="successful">Then FizzBuzz pattern is <parameter>1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11</parameter></step>
+</scenario>
+</story>
